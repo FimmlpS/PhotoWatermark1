@@ -12,6 +12,16 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <metadata-extractor.version>2.18.0</metadata-extractor.version>
     </properties>
+
+    <dependencies>
+        <!-- metadata-extractor library for reading EXIF information -->
+        <dependency>
+            <groupId>com.drewnoakes</groupId>
+            <artifactId>metadata-extractor</artifactId>
+            <version>${metadata-extractor.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
